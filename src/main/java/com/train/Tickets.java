@@ -1,8 +1,8 @@
 package com.train;
 
 public class Tickets {
-    int ticket;
-    int roundTrip;
+    private int ticket;
+    private int roundTrip;
 
     public Tickets(int ticket, int roundTrip) {
         this.ticket = ticket;

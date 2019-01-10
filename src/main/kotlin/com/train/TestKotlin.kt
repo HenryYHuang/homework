@@ -15,12 +15,12 @@ fun main(args: Array<String>) {
 
 class TicketKotlin(val ticket: Int, val roundTrip: Int) {
 
-    var percent = 0.9f
-    var ticketPrice = 1000
-    var roundTripPrice = 2000f
-    var roundTripPriceDiscountAmount = 0
-    var ticketAmount = 0
-    var total = 0
+    private var percent = 0.9f
+    private var ticketPrice = 1000
+    private var roundTripPrice = 2000f
+    private var roundTripPriceDiscountAmount = 0
+    private var ticketAmount = 0
+    private var total = 0
 
     init {
         ticketAmount = (ticket - roundTrip) * ticketPrice
