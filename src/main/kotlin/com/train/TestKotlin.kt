@@ -3,13 +3,19 @@ package com.train
 import java.util.*
 
 fun main(args: Array<String>) {
-    print("Please enter number of tickets:\t")
-    val scanner = Scanner(System.`in`)
-    val ticket = scanner.nextInt()
-    print("How many round-trip tickets:\t")
-    val roundTrip = scanner.nextInt()
-    val tickets = TicketKotlin(ticket, roundTrip)
-    tickets.print()
+    var exit = 0
+    while (exit != -1) {
+        print("Please enter number of tickets:\t")
+        val ticket = readLine()!!.toInt()
+        exit = ticket
+        if (exit != -1) {
+            print("How many round-trip tickets:\t")
+            val roundTrip = readLine()!!.toInt()
+            val tickets = TicketKotlin(ticket, roundTrip)
+            tickets.print()
+        }
+    }
+
 }
 
 
