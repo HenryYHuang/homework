@@ -1,7 +1,5 @@
 package com.train
 
-import java.util.*
-
 fun main(args: Array<String>) {
     var exit = 0
     while (exit != -1) {
