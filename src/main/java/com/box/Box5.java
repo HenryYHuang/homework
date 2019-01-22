@@ -1,4 +1,6 @@
-package com.train;
+package com.box;
+
+import com.train.Validate;
 
 public class Box5 implements Validate {
     public static Box5 instance;

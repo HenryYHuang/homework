@@ -1,4 +1,4 @@
-package com.train;
+package com.box;
 
 import java.util.Scanner;
 

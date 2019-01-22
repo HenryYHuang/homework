@@ -1,6 +1,8 @@
-package com.train;
+package com.box;
 
-public class Box3 implements Validate{
+import com.train.Validate;
+
+public class Box3 implements Validate {
     public static Box3 instance;
     private float length = 23f;
     private float width = 14f;
